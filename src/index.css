@@ -26,6 +26,27 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'font5';
+  src: url('./customfonts/apercu-mono.ttf') format('ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'font6';
+  src: url('./customfonts/Apercu_Regular.otf') format('otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'font7';
+  src: url('./customfonts/Ogg-Roman.otf') format('otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -49,3 +70,20 @@ body {
   clip-path: polygon(25% 0%, 100% 0%, 100% 75%, 63% 65%);
 }
 
+
+body::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+.font5 {
+  font-family: 'font5';
+}
