@@ -10,6 +10,8 @@ module.exports = {
       fontFamily: {
         "custom1": ['PNfont', 'sans-serif'],
         "custom2": ['AMfont', 'serif'],
+        "font3a": ['font3a', 'sans-serif'],
+        "font3b": ['font3b', 'sans-serif']
       },
       fontSize: {
         'xs': ['0.75rem', '1rem'],     // Example: Extra small screens
