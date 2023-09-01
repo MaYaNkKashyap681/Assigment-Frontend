@@ -1,5 +1,4 @@
 import React from 'react'
-import vinyl from '../../assets/ass5/vinyl1.png'
 import crowdFunding from '../../assets/ass5/crowdfunding.png'
 import buysell from '../../assets/ass5/buysell.png'
 import SquareChip from './SquareChip'
