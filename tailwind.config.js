@@ -6,6 +6,9 @@ module.exports = {
         "greenx": '#00B289',
         "greyx": '#4c4d5f',
         "goldenx": '#f8db62',
+        "yellowx": '#FFF804',
+        "pinkx": '#E280FF',
+        "grey2x": '#81836C',
       },
       fontFamily: {
         "custom1": ['PNfont', 'sans-serif'],
@@ -14,7 +17,12 @@ module.exports = {
         "font3b": ['font3b', 'sans-serif'],
         "font5": ['font5', 'sans-serif'],
         "font6": ['font6', 'sans-serif'],
-        "font7": ['font7', 'sans-serif']
+        "font7": ['font7', 'sans-serif'],
+        "p1": ['p1', 'sans-serif'],
+        "p2": ['p2', 'sans-serif'],
+        "qb1": ['qb1', 'sans-serif'],
+        "qb2": ['qb2', 'sans-serif'],
+        "f1": ['f1', 'sans-serif'],
       },
       fontSize: {
         'xs': ['0.75rem', '1rem'],     // Example: Extra small screens
