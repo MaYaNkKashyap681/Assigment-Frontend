@@ -33,7 +33,7 @@ const ImageChanger = () => {
     }, [count]);
 
     return (
-        <div className='min-h-screen w-full bg-black mt-12 flex flex-col items-center py-20'>
+        <div className='min-h-screen w-full bg-black flex flex-col items-center py-20'>
             <div className=' items-center justify-center  border-[2px] px-1 py-[0.4rem] inline-block border-[#ffffff] bg-transparent text-white'>
                 <span className='uppercase font-qb2 flex justify-center items-center text-xs'>VINYL STUDIO</span>
             </div>
