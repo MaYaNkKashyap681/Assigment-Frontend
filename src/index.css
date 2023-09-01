@@ -53,24 +53,28 @@
   font-weight: normal;
   font-style: normal;
 }
+
 @font-face {
   font-family: 'p2';
   src: url('./customfonts/p2.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
+
 @font-face {
   font-family: 'qb1';
   src: url('./customfonts/qb1.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
 }
+
 @font-face {
   font-family: 'qb2';
   src: url('./customfonts/qb2.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
 }
+
 @font-face {
   font-family: 'f1';
   src: url('./customfonts/f1.woff2') format('woff2');
@@ -118,3 +122,8 @@ body::-webkit-scrollbar-track {
 .font5 {
   font-family: 'font5';
 }
+
+
+.word-spacer {
+  word-spacing: -0.08em;
+} 
