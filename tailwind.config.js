@@ -9,6 +9,9 @@ module.exports = {
         "yellowx": '#FFF804',
         "pinkx": '#E280FF',
         "grey2x": '#81836C',
+        "cream1": '#fcf9ee',
+        "cream2": '#e7d6c4',
+        "cream3": '#ddc92a',
       },
       fontFamily: {
         "custom1": ['PNfont', 'sans-serif'],
@@ -23,6 +26,13 @@ module.exports = {
         "qb1": ['qb1', 'sans-serif'],
         "qb2": ['qb2', 'sans-serif'],
         "f1": ['f1', 'sans-serif'],
+        "tt": ['tt', 'sans-serif'],
+        "lco": ['lco', 'sans-serif'],
+        "fav": ['fav', 'sans-serif'],
+        "cyberthrone": ['cyberthrone', 'sans-serif'],
+        "caveat": ['Caveat', 'cursive']
+
+
       },
       fontSize: {
         'xs': ['0.75rem', '1rem'],     // Example: Extra small screens

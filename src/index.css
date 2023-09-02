@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;600&display=swap');
+
 @font-face {
   font-family: 'PNfont';
   src: url('./customfonts/PN.woff2') format('woff2');
@@ -82,6 +84,34 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'cyberthrone';
+  src: url('./customfonts/ass6/cyberthrone.ttf') format('ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'fav';
+  src: url('./customfonts/ass6/fav.otf') format('otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'lco';
+  src: url('./customfonts/ass6/lco.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'tt';
+  src: url('./customfonts/ass6/tt.otf') format('otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -99,12 +129,16 @@ body {
   height: 100%;
   width: 100vw;
   overflow-x: hidden;
+  background-color: #fcf9ee;
 }
 
 .clip-polygon {
   clip-path: polygon(25% 0%, 100% 0%, 100% 75%, 63% 65%);
 }
 
+.scrollHidder::-webkit-scrollbar {
+    display: none;
+}
 
 body::-webkit-scrollbar {
   width: 0;
@@ -126,4 +160,25 @@ body::-webkit-scrollbar-track {
 
 .word-spacer {
   word-spacing: -0.08em;
-} 
+}
+
+.infiniteScrollContainer {
+  display: flex;
+  overflow: hidden;
+  transition: translate3d(0, 0, 0);
+}
+
+.infiniteScrollText {
+  animation: infiniteScroll 20s linear infinite;
+  white-space: nowrap;
+  animation-play-state: running;
+}
+
+@keyframes infiniteScroll {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(-66.66%, 0, 0);
+  }
+}
